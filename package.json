@@ -1,6 +1,6 @@
 {
   "name": "heroku-set-env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Set all config vars from .env in Heroku project using one-command CLI.",
   "main": "index.js",
   "scripts": {

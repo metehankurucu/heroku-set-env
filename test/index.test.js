@@ -8,7 +8,6 @@ test("should get correct env variables", async () => {
 });
 
 test("should set config vars from cli on Heroku", async () => {
-  exec("npm link");
   const { err: setErr, stdout: setOut } = await exec(
     "node . -a example-project-heroku -p 'test/.env.example'"
   );

@@ -35,6 +35,8 @@ yarn global add heroku-set-env
 
 ## Usage
 
+You need to login Heroku CLI first. Run `heroku login` if you are not logged in.
+
 ```bash
     $ heroku-set-env --help
 
