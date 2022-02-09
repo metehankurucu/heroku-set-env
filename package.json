@@ -1,13 +1,19 @@
 {
   "name": "heroku-set-env",
   "version": "1.0.0",
-  "description": "Set config vars from .env in Heroku project using one-command CLI.",
+  "description": "Set all config vars from .env in Heroku project using one-command CLI.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "heroku",
+    "config",
+    "vars",
+    "cli",
+    "config-vars"
+  ],
+  "author": "Metehan Kurucu <metehankurucu@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.0.0",
@@ -19,5 +25,13 @@
   },
   "devDependencies": {
     "jest": "^27.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metehankurucu/heroku-set-env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/metehankurucu/heroku-set-env/issues"
+  },
+  "homepage": "https://github.com/metehankurucu/heroku-set-env#readme"
 }
